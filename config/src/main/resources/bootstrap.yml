@@ -1,0 +1,12 @@
+spring:
+  application:
+     name: registration-server
+  profiles:
+     active: native
+    
+server:
+  port: 8888
+
+management:
+  security:
+    enabled: false

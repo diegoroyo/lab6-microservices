@@ -1,3 +1,6 @@
 dependencies {
-    compile "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka-server', version: '1.4.6.RELEASE'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-config-client
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '1.4.6.RELEASE'
 }
